@@ -24,6 +24,23 @@ font: 16px Helvetica, Sans-Serif;
 	display: inline;
 }
 
+#card2
+{
+	font: 16px Helvetica, Sans-Serif;
+	line-height: 24px;
+	width: 500px;
+	height: auto;
+	margin: 20px;
+	background: #FFFF00;
+	clear: left;
+	box-shadow: 10px 10px 5px #999999;
+	border-style:solid;
+	border-color:#000000;
+	padding:20px 20px 20px 20px;
+	float:left;
+	display: inline;
+}
+
  
 h1
 {
