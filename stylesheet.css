@@ -5,6 +5,35 @@ font: 16px Helvetica, Sans-Serif;
 }
 
 
+ 
+h1
+{
+	margin: 0 0 16px 0;
+	padding: 0 0 16px 0;
+	font-size: 42px;
+	font-weight: bold;
+	letter-spacing: -2px;
+	border-bottom: 1px solid #551144; 
+	color: #777777;
+}
+
+h2
+{
+	font-size: 20px;
+	margin: 0 0 6px 0;
+	position: relative;
+}
+
+h3
+{
+	font-size: 16px;
+	margin: 0 0 6px 0;
+	position: relative;
+	color: #3399FF;
+}
+
+
+
 #card
 {
 	font: 16px Helvetica, Sans-Serif;
@@ -41,29 +70,61 @@ font: 16px Helvetica, Sans-Serif;
 	display: inline;
 }
 
- 
-h1
+
+
+#month
 {
-	margin: 0 0 16px 0;
-	padding: 0 0 16px 0;
-	font-size: 42px;
-	font-weight: bold;
-	letter-spacing: -2px;
-	border-bottom: 1px solid #551144; 
-	color: #777777;
+	font: 10px Helvetica, Sans-Serif;
+	line-height: 24px;
+	width: 500px;
+	height: 150px;
+	margin: 20px;
+	background: #FFFF99;
+	clear: left;
+	box-shadow: 10px 10px 5px #999999;
+	border-style:solid;
+	border-radius:5px;
+	border-color:#000000;
+	padding:20px 20px 20px 20px;
+	float:left;
+	display: inline;
+}
+#week
+{
+	width: 220px;
+	height: 20px;
+	border: 1px solid;
+	border-color:#FFFFFF;
+	float: clear;
+	text-align: center;
 }
 
-h2
+#dayw
 {
-	font-size: 20px;
-	margin: 0 0 6px 0;
-	position: relative;
+	width: 30px;
+	height: 20px;
+	background: #99CCFF;
+	border: 1px solid;
+	border-color:#FF0000;
+	float:left;
+	}
+	
+#dayh
+{
+	width: 30px;
+	height: 20px;
+	font: bold;
+	float:left;
 }
 
-h3
+#daym
 {
-	font-size: 16px;
-	margin: 0 0 6px 0;
-	position: relative;
-	color: #3399FF;
-}
+	width: 30px;
+	height: 20px;
+	background: #99FF99;
+	border: 1px solid;
+	border-color:#FFFFFF;
+	float:left;
+	}
+	
+	
