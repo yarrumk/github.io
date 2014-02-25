@@ -1,3 +1,8 @@
+body
+{
+	font:1em/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background: url(images/bg.jpg) top center no-repeat #545454;
+}
 
 *
 {
@@ -5,11 +10,6 @@
 	padding:0;
 }
 
-body
-{
-	font:1em/1.4 Verdana, Arial, Helvetica, sans-serif;
-	background: url(images/bg.jpg) top center no-repeat #545454;
-}
 
 body *
 {
@@ -42,9 +42,9 @@ h1
 	display: block;
 	width: 200px;
 	height:76px;
-	background:url(images/july.png);
-	text-indent:-9999px;
 	margin: 15px auto;
+	font: #FFFFFF;
+	text-align:center;
 }
 	
 
@@ -89,4 +89,15 @@ li li.holiday
 li#lastmonth li,li#nextmonth li
 {
 	background: url(images/day-bg-inactive.png);
+}
+
+
+#month
+{
+	width: 80%;
+	height: auto;
+	margin: 20px;
+	clear: left;
+	padding:20px 20px 20px 20px;
+	float:left;
 }

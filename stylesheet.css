@@ -1,6 +1,6 @@
 body 
 {
-background-image:url('noise.jpg');
+background: url(images/bg.jpg) top center no-repeat #545454;
 font: 16px Helvetica, Sans-Serif;
 }
 
@@ -44,10 +44,6 @@ h3
 	margin: 20px;
 	background: #F0F0F0;
 	clear: left;
-	box-shadow: 10px 10px 5px #999999;
-	border-style:solid;
-	border-radius:12px;
-	border-color:#000000;
 	padding:20px 20px 20px 20px;
 	float:left;
 	display: inline;
@@ -62,69 +58,9 @@ h3
 	margin: 20px;
 	background: #FFFF00;
 	clear: left;
-	box-shadow: 10px 10px 5px #999999;
-	border-style:solid;
-	border-color:#000000;
 	padding:20px 20px 20px 20px;
 	float:left;
 	display: inline;
 }
 
 
-
-#month
-{
-	font: 10px Helvetica, Sans-Serif;
-	line-height: 24px;
-	width: 500px;
-	height: 150px;
-	margin: 20px;
-	background: #FFFF99;
-	clear: left;
-	box-shadow: 10px 10px 5px #999999;
-	border-style:solid;
-	border-radius:5px;
-	border-color:#000000;
-	padding:20px 20px 20px 20px;
-	float:left;
-	display: inline;
-}
-#week
-{
-	width: 220px;
-	height: 20px;
-	border: 1px solid;
-	border-color:#FFFFFF;
-	float: clear;
-	text-align: center;
-}
-
-#dayw
-{
-	width: 30px;
-	height: 20px;
-	background: #99CCFF;
-	border: 1px solid;
-	border-color:#FF0000;
-	float:left;
-	}
-	
-#dayh
-{
-	width: 30px;
-	height: 20px;
-	font: bold;
-	float:left;
-}
-
-#daym
-{
-	width: 30px;
-	height: 20px;
-	background: #99FF99;
-	border: 1px solid;
-	border-color:#FFFFFF;
-	float:left;
-	}
-	
-	
