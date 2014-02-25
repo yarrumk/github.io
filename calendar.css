@@ -1,8 +1,30 @@
 body
 {
-	font:1em/1.4 Verdana, Arial, Helvetica, sans-serif;
+	font: 16px Helvetica, Sans-Serif;
 	background: url(images/bg.jpg) top center no-repeat #545454;
 }
+
+a:link
+{
+	font: 30px Helvetica, San-Serif #330088;
+	text-decoration:none;
+}
+
+a:visited 
+{
+	text-decoration:none;
+}
+a:hover 
+{
+	text-decoration:underline;
+}
+
+#main
+{
+	font: 30px Helvetica, San-Serif #330088;
+	text-decoration:none;
+}
+
 
 *
 {
@@ -10,10 +32,41 @@ body
 	padding:0;
 }
 
-
-body *
+h1
 {
-	display:inline;
+	margin: 0 0 16px 0;
+	padding: 0 0 16px 0;
+	font-size: 42px;
+	font-weight: bold;
+	letter-spacing: -2px;
+	border-bottom: 1px solid #551144; 
+	color: #777777;
+	display: block;
+}
+
+h2
+{
+	font-size: 20px;
+	margin: 0 0 6px 0;
+	display: block;
+}
+
+h3
+{
+	font-size: 16px;
+	margin: 0 0 6px 0;
+	color: #3399FF;
+	display: block;
+}
+
+h5
+{
+	display: block;
+	width: 200px;
+	height:76px;
+	margin: 15px auto;
+	font: #FFFFFF;
+	text-align:center;
 }
 
 ol.calendar         
@@ -36,17 +89,6 @@ p.link
 	text-align:center;
 	display: block;
 }
-
-h1
-{
-	display: block;
-	width: 200px;
-	height:76px;
-	margin: 15px auto;
-	font: #FFFFFF;
-	text-align:center;
-}
-	
 
 li li
 {
@@ -100,4 +142,32 @@ li#lastmonth li,li#nextmonth li
 	clear: left;
 	padding:20px 20px 20px 20px;
 	float:left;
+}
+
+#card
+{
+	font: 16px Helvetica, Sans-Serif;
+	line-height: 24px;
+	width: 500px;
+	height: auto;
+	margin: 20px;
+	background: #F0F0F0;
+	clear: left;
+	padding:20px 20px 20px 20px;
+	float:left;
+	display: block;
+}
+
+#card2
+{
+	font: 16px Helvetica, Sans-Serif;
+	line-height: 24px;
+	width: 500px;
+	height: auto;
+	margin: 20px;
+	background: #FFFF00;
+	clear: left;
+	padding:20px 20px 20px 20px;
+	float:left;
+	display: block;
 }

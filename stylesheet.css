@@ -1,7 +1,7 @@
 body 
 {
-background: url(images/bg.jpg) top center no-repeat #545454;
-font: 16px Helvetica, Sans-Serif;
+	font: 16px Helvetica, Sans-Serif;
+	background: url(images/bg.jpg) top center no-repeat #545454;
 }
 
 
