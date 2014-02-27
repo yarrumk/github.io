@@ -30,7 +30,6 @@ background: linear-gradient(to bottom right, #1A1A1A, #A3A3A3, #1A1A1A); /* Stan
 
 #conversation
 {
-	background: url(images/tl.png) top left no-repeat;
 	width: 380px;
 	height: 620px;
 	margin: 2px;
@@ -95,7 +94,7 @@ h4
 
 .you
 {
-	width: auto;
+width: auto;
 	max-width:250;
 	height: auto;
 	margin: 2px;
@@ -106,3 +105,15 @@ h4
 	float:left;
 	padding:0px 20px 0px 20px;
 }
+.picture
+{
+
+	width: 180px;
+	height: 180px;
+	border-radius: 100px;
+	border-bottom-left-radius:10px;
+	background: url(images/mise.jpg) #00CC00;
+	clear: left;
+	float:left;
+}
+
