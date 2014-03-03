@@ -1,0 +1,157 @@
+body
+{
+font-family: arial,San-serif;
+}
+
+h1
+{
+	font-size: 42px;
+	font-weight: bold;
+	letter-spacing: -2px;
+	border-bottom: 1px solid #CCCCCC; 
+	color: #777777;
+	display: block;
+}
+
+
+h2
+{
+	font-size: 21px;
+	display: block;
+}
+
+h3
+{
+	font-size: 12px;
+	color: #B2B2B2;
+}
+
+
+h4
+{
+	font-size: 16px;
+	color: #FFFFFF;
+	display: center;
+}
+
+.button
+{
+	background: -webkit-linear-gradient(#cccccc, #EBEBEB); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#cccccc, #EBEBEB); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#cccccc, #EBEBEB); /* For Firefox 3.6 to 15 */
+	background: linear-gradient( #cccccc, #EBEBEB); /* Standard syntax */
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position:absolute;
+	left:500px;
+	top:150px;
+	border: black solid 1px;
+}
+.button1
+{
+	background: -webkit-linear-gradient(#EBEBEB, #cccccc); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#EBEBEB, #cccccc ); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient( #EBEBEB, #cccccc ); /* For Firefox 3.6 to 15 */
+	background: linear-gradient( #EBEBEB, #cccccc); /* Standard syntax */
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	position:absolute;
+	left:505px;
+	top:155px;
+	border: white solid 1px;
+	transition: transform 2s;
+}
+	
+.button1:hover
+{ 
+-webkit-transform:rotate(180deg); /* Safari */
+transform: rotate(180deg);
+}
+
+.picture
+{
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	border-bottom-left-radius:10px;
+	background: url(images/mise.jpg) #00CC00;
+	clear: left;	
+	float:left;
+	position:absolute;
+	left:50px;
+	top:100px;
+}
+
+.picturea
+{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border-bottom-right-radius:10px;
+	background-color:red;
+	clear: left;	
+	opacity:0.5;
+	float:left;
+	position:absolute;
+	left:100px;
+	top:100px;
+}
+.pictureb
+{
+
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border-bottom-left-radius:10px;
+	background-color: blue;
+	opacity:0.5;
+	float:left;	
+	position:absolute;
+	left:200px;
+	top:100px;	
+}
+	.pictured
+{
+
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border-top-left-radius:10px;
+	background-color:yellow;
+	opacity:0.5;
+	float:left;
+	clear:left;
+	position:absolute;
+	left:200px;
+	top:200px;}
+
+.picturec
+{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border-top-right-radius:10px;
+	background-color:green;
+	opacity:0.5;
+	float:left;	
+	position:absolute;
+	left:100px;
+	top:200px;
+	}
+.picturee
+{
+	width: 100px;
+	height: 100px;
+	border-radius: 10px;
+	background-color: white;
+	float:left;	
+	position:absolute;
+	left:200px;
+	top:200px;	
+}
+	
+
+	
+	
