@@ -1,0 +1,194 @@
+
+body
+{
+	font: 16px Helvetica, Sans-Serif;
+	background: url(images/bg.jpg) top center no-repeat #545454;
+}
+
+a:link
+{
+	font: 30px Helvetica, San-Serif #FFFFFF;
+	text-decoration:none;
+}
+
+a:vlink
+{
+	font: 30px Helvetica, San-Serif #FFFFFF;
+	text-decoration:none;
+}
+
+a:visited 
+{
+	font: 30px Helvetica, San-Serif #FFFFFF
+	text-decoration: none;
+}
+a:hover 
+{
+	font: 30px Helvetica, San-Serif #FFFFFF
+	text-decoration:none;
+}
+
+#main
+{
+	font: 30px Helvetica, San-Serif #FFFFFF;
+	text-decoration:none;
+}
+
+
+*
+{
+	margin:0;
+	padding:0;
+}
+
+h1
+{
+	margin: 0 0 16px 0;
+	padding: 0 0 16px 0;
+	font-size: 42px;
+	font-weight: bold;
+	letter-spacing: -2px;
+	border-bottom: 1px solid #CCCCCC; 
+	color: #777777;
+	display: block;
+}
+
+h4
+{
+	margin: 0 0 16px 0;
+	padding: 0 0 16px 0;
+	font-size: 42px;
+	font-weight: bold;
+	letter-spacing: -2px;
+	border-bottom: 1px solid #CCCCCC; 
+	color: #CCCCCC;
+	display: block;
+}
+
+h2
+{
+	font-size: 20px;
+	margin: 0 0 6px 0;
+	display: block;
+}
+
+h3
+{
+	font-size: 16px;
+	margin: 0 0 6px 0;
+	color: #3399FF;
+	display: block;
+}
+
+h5
+{
+	display: block;
+	width: 200px;
+	height:76px;
+	margin: 15px auto;
+	font: #FFFFFF;
+	text-align:center;
+}
+
+ol.calendar         
+{
+	width:52em;
+	margin:0 auto;
+	display:block;
+	min-height: 200px;
+	background: url(images/tl.png) top left no-repeat;
+	padding: 12px 0 0 20px;
+}
+
+li
+{
+	list-style:none;
+}
+
+p.link 
+{
+	text-align:center;
+	display: block;
+}
+
+li li
+{
+	width:6em;
+	height:6em;
+	float:left;
+	margin:.2em;
+	padding:.2em;
+	overflow:auto;
+	background: url(images/day-bg.png) bottom right no-repeat;
+}
+
+li li p
+{
+	font-size:.7em;
+	display:block;
+}
+
+li li ol 
+{
+	width:auto;
+}
+
+li li ul li,li li ol li 
+{
+	font-size:.7em;
+	display:block;
+	height:auto;
+	width:auto;
+	background: none;
+	margin:0;
+	padding:.2em 0;
+	float:none;
+}
+
+li li.holiday     
+{
+}
+
+li#lastmonth li,li#nextmonth li
+{
+	background: url(images/day-bg-inactive.png);
+}
+
+
+#month
+{
+	width: 80%;
+	height: auto;
+	margin: 20px;
+	clear: left;
+	padding:20px 20px 20px 20px;
+	float:left;
+}
+
+#card
+{
+	font: 16px Helvetica, Sans-Serif;
+	line-height: 24px;
+	width: 500px;
+	height: auto;
+	margin: 20px;
+	background: #F0F0F0;
+	clear: left;
+	padding:20px 20px 20px 20px;
+	float:left;
+	display: block;
+}
+
+#card2
+{
+	font: 16px Helvetica, Sans-Serif;
+	line-height: 24px;
+	width: 500px;
+	height: auto;
+	margin: 20px;
+	background: #FFFF00;
+	clear: left;
+	padding:20px 20px 20px 20px;
+	float:left;
+	display: block;
+}
