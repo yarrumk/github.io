@@ -31,7 +31,6 @@ h4
 {
 	font-size: 16px;
 	color: #FFFFFF;
-	display: center;
 }
 
 .button
@@ -174,40 +173,51 @@ transform: rotate(180deg);
 }
 .kielyleaf
 {
-	width: 	200px;
-	height: 100px;
+	width: 	130px;
+	height: 60px;
 	border-bottom-left-radius:200px;
 	border-bottom-right-radius:20px;
 	border-top-left-radius:20px;
 	border-top-right-radius:200px;
 	background-color: green;
+	padding:10px;
+	padding-left:60px;
+	padding-top:20px;
 	float:left;	
 	opacity:0.5;
 	position:absolute;
 	left:50px;
 	top:650px;	
-	transition: opacity 1s;
+	transition: opacity 0.5s;
+	
 }
 .kielyleaf:hover
 { 
 opacity:0.9;
 }
+.kielyleaf:active
+{ 
+visibility:hidden;
+}
 
 .kielyleafa
 {
-	width: 	200px;
-	height: 100px;
+	width: 	130px;
+	height: 60px;
 	border-bottom-left-radius:20px;
 	border-bottom-right-radius:200px;
 	border-top-left-radius:200px;
 	border-top-right-radius:20px;
 	background-color: green;
+	padding:10px;
+	padding-left:60px;
+	padding-top:20px;
 	float:left;	
 	opacity:0.5;
 	position:absolute;
 	left:270px;
 	top:650px;	
-	transition: opacity 1s;
+	transition: opacity 0.5s;
 }
 .kielyleafa:hover
 { 
