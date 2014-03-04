@@ -70,6 +70,17 @@ h4
 transform: rotate(180deg);
 }
 
+.button1:active
+{ 
+-webkit-transform:rotate(180deg); /* Safari */
+transform: rotate(180deg);
+	left:500px;
+	top:150px;
+	width: 100px;
+	height: 100px;
+	box-shadow: 0px 0px 10px 5px red;"
+}
+
 .picture
 {
 	width: 180px;
@@ -175,7 +186,13 @@ transform: rotate(180deg);
 	position:absolute;
 	left:50px;
 	top:650px;	
+	transition: opacity 1s;
 }
+.kielyleaf:hover
+{ 
+opacity:0.9;
+}
+
 .kielyleafa
 {
 	width: 	200px;
@@ -190,7 +207,13 @@ transform: rotate(180deg);
 	position:absolute;
 	left:270px;
 	top:650px;	
+	transition: opacity 1s;
 }
+.kielyleafa:hover
+{ 
+opacity:0.9;
+}
+
 .kielystalk
 {
 	width: 	20px;
