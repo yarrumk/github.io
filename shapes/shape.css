@@ -152,7 +152,54 @@ transform: rotate(180deg);
 	top:200px;	
 }
 	
-
+.kielyholder
+{	
+	background-color: #FFFFD6;
+	width: 	470px;
+	height: 600px;
+	left:25px;
+	top:500px;
+	position:absolute;
+}
+.kielyleaf
+{
+	width: 	200px;
+	height: 100px;
+	border-bottom-left-radius:200px;
+	border-bottom-right-radius:20px;
+	border-top-left-radius:20px;
+	border-top-right-radius:200px;
+	background-color: green;
+	float:left;	
+	opacity:0.5;
+	position:absolute;
+	left:50px;
+	top:650px;	
+}
+.kielyleafa
+{
+	width: 	200px;
+	height: 100px;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:200px;
+	border-top-left-radius:200px;
+	border-top-right-radius:20px;
+	background-color: green;
+	float:left;	
+	opacity:0.5;
+	position:absolute;
+	left:270px;
+	top:650px;	
+}
+.kielystalk
+{
+	width: 	20px;
+	height: 575px;
+	background-color: #391D00;
+	position:absolute;
+	left:250px;
+	top:520px;	
+}
 	
 .leafa
 {
@@ -168,7 +215,6 @@ transform: rotate(180deg);
 	position:absolute;
 	left:650px;
 	top:150px;	
-	
 }
 
 	
